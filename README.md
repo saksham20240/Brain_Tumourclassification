@@ -101,7 +101,3 @@ available.
 
 `dataset/`, `Crop-Brain-MRI/`, `Test-Data/`, and `model.keras` are
 regenerated locally rather than committed.
-
-## License
-
-[MIT](LICENSE)
