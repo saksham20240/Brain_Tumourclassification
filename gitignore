@@ -1,0 +1,21 @@
+# Dataset (redistribute via Kaggle link in README instead, not in the repo)
+dataset/
+
+# Generated intermediates (re-created by `--stage preprocess`)
+Crop-Brain-MRI/
+Test-Data/
+
+# Trained model - regenerate via `--stage train`, or publish separately
+# (GitHub Release / Git LFS / Hugging Face Hub) if you want to share weights.
+*.keras
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda / editors
+.conda/
+.vscode/
+.idea/
