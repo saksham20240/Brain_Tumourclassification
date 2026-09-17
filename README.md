@@ -91,7 +91,7 @@ available.
 ```
 .
 ├── brain_tumor_pipeline.py
-├── environment.yml
+├── environment_minimal.yml
 ├── training_history.png
 ├── confusion_matrix.png
 ├── sample_predictions.png
