@@ -1,0 +1,15 @@
+name: brain-tumor-gpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - tensorflow[and-cuda]==2.15.*   # bundles matching CUDA/cuDNN via pip
+      - opencv-python-headless
+      - imutils
+      - scikit-image
+      - scikit-learn
+      - matplotlib
+      - tqdm
+      - pillow
